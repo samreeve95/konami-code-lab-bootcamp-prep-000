@@ -11,6 +11,8 @@ const codes = [
   "a"
 ];
 
+var buf = [];
+
 //document.addEventListener('DOMContentLoaded', init);
 
 function init() {
