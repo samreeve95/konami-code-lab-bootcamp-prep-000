@@ -21,5 +21,6 @@ function init() {
 function keyHand(e)
 {
   if (e.key === "a")
+    alert("spy triggered");
     console.log("a");
 }
