@@ -22,10 +22,9 @@ function init() {
 
 function keyHand(e)
 {
-  alert();
   if (e.key === "a")
   {
-    console.log("a pressed");
+    alert("A pressed. I cheated.")
   }
   console.log(e.key);
 }
