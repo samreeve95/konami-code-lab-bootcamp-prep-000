@@ -38,7 +38,7 @@ function verify(buffer)
   
   for (var i=0;i<buffer.length;i++)
   {
-      
+      if (buf[i] )
   }
   
 }
