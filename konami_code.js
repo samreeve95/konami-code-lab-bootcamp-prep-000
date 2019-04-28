@@ -29,11 +29,9 @@ function keyHand(e)
   buf.push(e.key);
   if (buf.length === codes.length)
   {
-    console.log("Lengths");
     verify(buf, codes);
   }
   
-  console.log(buf.length);
 }
 
 function verify(buffer, codes)
