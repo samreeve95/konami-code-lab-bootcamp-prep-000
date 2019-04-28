@@ -49,7 +49,10 @@ function verify(buffer)
   }
   
   if (b)
+  {
     window.alert("Code Entered");
-    
+    console.log("Code Entered");
+  }
+  
   buf = [];
 }
