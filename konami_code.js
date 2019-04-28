@@ -17,11 +17,12 @@ function init() {
   // your code here
   
   document.addEventListener('keydown', keyHand);
-  window.alert("Start");
+  
 }
 
 function keyHand(e)
 {
+  
   if (e.key === "a")
   {
     window.alert("A pressed. I cheated.");
