@@ -11,7 +11,7 @@ const codes = [
   "a"
 ];
 
-document.addEventListener('DOMContentLoaded', init);
+//document.addEventListener('DOMContentLoaded', init);
 
 function init() {
   // your code here
