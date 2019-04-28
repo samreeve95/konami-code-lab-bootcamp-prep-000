@@ -20,5 +20,6 @@ function init() {
 
 function keyHand(e)
 {
-  if e.key
+  if (e.key === "a")
+    console.log("a");
 }
