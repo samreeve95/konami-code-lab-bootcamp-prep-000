@@ -22,7 +22,7 @@ function init() {
 
 function keyHand(e)
 {
-  if (e.key === "a")
+  if (e.key === 61)
     alert("spy triggered");
     console.log("a");
 }
