@@ -30,13 +30,13 @@ function keyHand(e)
   if (buf.length === codes.length)
   {
     console.log("Lengths");
-    verify(buf);
+    verify(buf, codes);
   }
   
   console.log(buf.length);
 }
 
-function verify(buffer)
+function verify(buffer, codes)
 {
   var b = true;
   
