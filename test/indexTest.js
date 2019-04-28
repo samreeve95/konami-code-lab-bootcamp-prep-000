@@ -24,7 +24,7 @@ describe("index.js", () => {
 
   describe("Konami code", () => {
     
-    const spy = sinon.stub(window, "alert");
+    const spy = sinon.stub(window, "prompt");
     
     it("triggers an alert if the right code is entered", () => {
       
