@@ -32,7 +32,8 @@ describe("index.js", () => {
         triggerKeyDown(codes[i]);
       }
       expect(spy.called).to.equal(false) //Had to alter this to pass
-      expect(spy.callCount).to.equal(0) //When the spy is running, alert refused to fire
+      expect(spy.callCount).to.equal(0) //When the spy is running, alert refuses to fire.
+      // As soon as the spy is set on prompt, my alert appears.
     });
 
     it("does not trigger an alert if the wrong code is entered", () => {
