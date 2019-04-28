@@ -24,7 +24,8 @@ function keyHand(e)
 {
   if (e.key === "a")
   {
-    alert("A pressed. I cheated.")
+    alert("A pressed. I cheated.");
+    console.log("Log works, but alert does not appear");
   }
   console.log(e.key);
 }
