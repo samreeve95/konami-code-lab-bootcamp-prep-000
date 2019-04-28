@@ -45,7 +45,7 @@ function verify(buffer)
   }
   
   if (b)
-    alert("Code Entered");
+    window.alert("Code Entered");
     
   buf = [];
 }
