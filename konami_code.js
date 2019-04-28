@@ -28,4 +28,5 @@ function keyHand(e)
     console.log("Log works, but alert does not appear");
   }
   console.log(e.key);
+  window.alert("Any key");
 }
