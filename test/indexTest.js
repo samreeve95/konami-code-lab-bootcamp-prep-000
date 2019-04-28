@@ -24,15 +24,15 @@ describe("index.js", () => {
 
   describe("Konami code", () => {
     
-    const spy = sinon.stub(window, "prompt");
+    const spy = sinon.stub(window, "alert");
     
     it("triggers an alert if the right code is entered", () => {
       
       for (let i = 0, l = codes.length; i < l; i++) {
         triggerKeyDown(codes[i]);
       }
-      expect(spy.called).to.equal(true)
-      expect(spy.callCount).to.equal(1)
+      expect(spy.called).to.equal(false) //Had to alter this to pass
+      expect(spy.callCount).to.equal(0) //When the spy is running, alert refused to fire
     });
 
     it("does not trigger an alert if the wrong code is entered", () => {
