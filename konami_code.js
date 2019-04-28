@@ -24,7 +24,7 @@ function keyHand(e)
 {
   if (e.key === "a")
   {
-    alert("a pressed");
+    console.log("a pressed");
   }
   console.log(e.key);
 }
