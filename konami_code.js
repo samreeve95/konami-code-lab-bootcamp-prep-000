@@ -25,6 +25,7 @@ function init() {
 function keyHand(e)
 {
   console.log(e.key);
+  
   buf.push(e.key);
   if (buf.length === codes.length)
   {
