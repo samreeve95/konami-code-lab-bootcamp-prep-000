@@ -32,6 +32,8 @@ function keyHand(e)
     console.log("Lengths");
     verify(buf);
   }
+  
+  console.log(buf.length);
 }
 
 function verify(buffer)
