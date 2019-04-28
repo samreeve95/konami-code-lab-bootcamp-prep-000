@@ -19,7 +19,7 @@ function init() {
   document.addEventListener('keydown', keyHand);
   
 }
-
+alert();
 function keyHand(e)
 {
   if (e.key === "a")
