@@ -24,7 +24,7 @@ function keyHand(e)
 {
   if (e.key === "a")
   {
-    alert("spy triggered");
+    alert("a pressed");
   }
   console.log(e.key);
 }
