@@ -17,9 +17,9 @@ function init() {
   // your code here
   
   document.addEventListener('keydown', keyHand);
-  
+  alert();
 }
-alert();
+
 function keyHand(e)
 {
   if (e.key === "a")
