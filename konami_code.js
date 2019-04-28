@@ -17,11 +17,12 @@ function init() {
   // your code here
   
   document.addEventListener('keydown', keyHand);
-  alert();
+  
 }
 
 function keyHand(e)
 {
+  alert();
   if (e.key === "a")
   {
     console.log("a pressed");
