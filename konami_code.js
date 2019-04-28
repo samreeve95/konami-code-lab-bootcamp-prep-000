@@ -25,11 +25,20 @@ function init() {
 function keyHand(e)
 {
   
-  if (e.key === "a")
+  buf.push(e.key);
+  if (buf.length === codes.length)
   {
-    window.alert("A pressed. I cheated.");
-    console.log("Log works, but alert does not appear");
+    verify(buf);
   }
-  console.log(e.key);
-  window.alert("Any key");
+}
+
+function verify(buffer)
+{
+  var b = true;
+  
+  for (var i=0;i<buffer.length;i++)
+  {
+      
+  }
+  
 }
